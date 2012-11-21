@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Nuxeo
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-Version: 5.5
+Bundle-Name: hotreload
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: hotreload
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Nuxeo-Component: 
+ OSGI-INF/extensions/com.rlnx.nuxeo.hotreload.service.xml,
+ OSGI-INF/extensions/com.rlnx.nuxeo.hotreload.doctypes.xml,
+
